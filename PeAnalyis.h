@@ -9,7 +9,7 @@
 
 class PeAnalyis {
 public:
-	PeAnalyis(const char* patch);
+	PeAnalyis(const char* path);
 	~PeAnalyis();
 	bool loadfile();
 	bool analyisfile();
